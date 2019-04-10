@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        Foreman foreman = new Foreman();
-        HeadOfDepartment hod = new HeadOfDepartment();
-        CEO ceo = new CEO();
+        Raise foreman = new Foreman();
+        Raise hod = new HeadOfDepartment();
+        Raise ceo = new CEO();
 
         // Asetaan seuraajat
         foreman.setSuccessor(hod);
